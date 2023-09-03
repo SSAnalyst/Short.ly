@@ -1,0 +1,93 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: left;
+            background-color: #140c10;
+        }
+        #header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+        }
+        #footer {
+            background-color: #3498db;
+            color: beige;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        h1 {
+            font-size: 36px;
+            color: #ffffff;
+            text-align: left;
+            margin-left: 250px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #ffffff;
+        }
+        h11 {
+            font-size: 36px;
+            color: #ffffff;
+        }
+        p {
+            font-size: 18px;
+            color: #ffffff;
+            text-align: center;
+        }
+        p1 {
+            font-size: 18px;
+            color: #ffffff;
+            margin-right: 100px;
+            
+            
+        }
+        li{
+            font-size: 18px;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        a {
+            color: yellow;
+            font-size: 20px;
+            margin-left: 1000px;
+        }
+
+        
+        #random-string {
+            font-size: 24px;
+            margin: 20px;
+            color: #ffc0cb;
+            text-align: center;
+        }
+        #generate-button {
+            margin-top: 30px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            
+        }
+        #generate-button:hover {
+            background-color: #2980b9;
+        }
+        #graphic {
+            margin-top: 30px;
+            margin-left: 675px;
+            margin-bottom: 30px;
+        }
+        #sysdesi {
+            margin-top: 30px;
+            margin-left: 400px;
+            margin-bottom: 35px;     
+        }
+
+        #thx {
+            margin-top: 30px;
+            margin-left: 575px;
+            margin-bottom: 30px;
+        }
+        
+
+        

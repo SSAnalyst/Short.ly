@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>short.ly : )</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Input Box</title>
+    <style>
+        .logo{
+            height: 100px;
+            width: 150px;
+        }
+
+        .link-container {
+            text-align: right;
+        }
+
+        .link-container a {
+            display: inline-block;
+            margin: 10px; 
+            text-decoration: none;
+            color: #f5f50a;
+        }
+
+        .centered-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 5vh;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            
+            background-color: #3498db; /* Background color for the header */
+            color: #f0e808; /* Text color for the header */
+            padding: 10px;
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+
+    <div id="header">
+
+        <img src="https://w0.peakpx.com/wallpaper/151/540/HD-wallpaper-infinity-sign-dark-background-turquoise-infinity-sign-glitter-art-infinity-concepts-thumbnail.jpg" alt="Website Logo" class="logo">
+        <h1>short.ly</h1> 
+        <div class="link-container">
+            <a href="https://www.linkedin.com/in/saurabh-shinde-4b4645192/">LinkedIn</a>
+            <a href="https://github.com/SSAnalyst">GIT</a>
+            <a href="https://saurabhsambhaji201.wixsite.com/saurabh-shinde">Saurabh Shinde</a>
+        </div>
+        
+    </div>
+
+    <p>Enter the URL below to generate short link</p>
+    <div id="random-string"></div>
+    <div class="centered-container">
+        <input type="text" placeholder="Enter long URL ">
+    </div>
+    <div class="centered-container">
+        <button id="generate-button">Create</button>
+    </div>
+    <div id="graphic">
+        <img src="https://thumbs.dreamstime.com/b/apertando-m%C3%A3o-uma-lata-vermelha-ilustra%C3%A7%C3%A3o-vetorial-da-compress%C3%A3o-manual-de-esmagar-um-dia-setembro-225901460.jpg"  width="150" height="150">
+    </div>
+
+    <script src = "script.js"></script>
+    
+    <h11>Lets understand how these services work!</h11>
+    <h2>This is the system design flow : </h2>
+    <div id="sysdesi">
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*mParFcnj7wO_-Srp3IalKg.png"  width="800" height="450">
+    </div>
+    <div id="custom-margin">
+    <p1>URL shortening is a process that converts a long URL (Uniform Resource Locator) into a shorter, more manageable link. It's commonly used to make URLs more user-friendly and easier to share on social media, in emails, or in printed materials. Here's how URL shortening works, explained in points:</p1>
+    </div>
+    <ul>
+        <li>Input: The process begins with a long URL, which could point to a webpage, a file, or any online resource. This long URL can be quite cumbersome and may contain many characters.</li>
+        <li>Shortening Service: To shorten the URL, you use a URL shortening service or tool. Several websites and APIs offer this service for free or as part of their offerings.</li>
+        <li>Generating a Shortened URL: When you input the long URL into the URL shortening service, it generates a unique, shorter alias for the original URL. This new shortened URL is typically a combination of letters, numbers, and special characters, and it's significantly shorter than the original URL.</li>
+        <li>Storing in a Database: The URL shortening service usually stores the mapping between the original long URL and the newly generated short URL in a database. This mapping ensures that when someone accesses the short URL, the service knows which long URL to redirect them to.</li>
+        <li>Accessing the Short URL: Users can now use the shortened URL in various contexts, such as sharing it on social media or including it in emails and messages.</li>
+        <li>Redirecting: When someone clicks on or accesses the shortened URL, the URL shortening service looks up the corresponding long URL in its database using the short URL as a key.</li>
+        <li>Redirecting to the Original URL: Once the service identifies the original long URL associated with the short URL, it redirects the user's web browser to the actual destination, which is the original, longer URL.</li>
+        <li>Statistics and Analytics: Many URL shortening services offer statistics and analytics to track the number of clicks, geographic locations of users, referral sources, and more. This information can be valuable for tracking the performance of the URL.</li>
+        <li>Expiration: Some URL shortening services offer the option to set an expiration date for the shortened URL. After the specified date, the short URL may no longer work, providing a level of control over the link's accessibility.</li>
+        <li>Custom Short URLs: Some services allow users to customize the alias of the shortened URL, making it more memorable and branded. For example, a company might use a custom shortened URL like "companyname.com/promo" instead of a random string of characters.</li>
+        <li>Security: URL shortening services often implement security features to prevent abuse and link hijacking. This includes checking the destination URL for malicious content and providing previews of the final destination to users before redirection.</li>
+    </ul>
+    <p1>In summary, URL shortening involves converting long, unwieldy URLs into shorter, more convenient versions. This is achieved through a process that generates unique aliases, stores mappings in a database, and redirects users to the original destination when they access the shortened link. It is a valuable tool for simplifying and managing URLs, especially in contexts where brevity and user-friendliness are essential. Eg. bit.ly/ and tinyurl.com/ are the most used services in the present date.</p1>
+
+    <div id="thx">
+        <img src="https://t4.ftcdn.net/jpg/03/15/18/77/360_F_315187788_3J1AUmxmz6SneI680exb9EWkAlb3mfvg.jpg" width="400" height="200">
+    </div>
+
+    <div id="footer">
+        <p>This website is made for educational purpose only,  short.ly links generated are not active and is for understanding purpose only.2023 </p>
+    </div>
+
+</body>
+</html>
